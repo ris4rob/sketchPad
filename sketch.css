@@ -7,5 +7,17 @@
 body {
           background: no-repeat center url(assets/sketchpadBackgroundComplete.png);
           height: 100vh;
-          z-index: 0;
+          z-index: 10;
+          position: relative;
+}
+
+.sketchpad-wrapper {
+          background-color: black;
+          width: 660px;
+          height: 380px;
+          position: absolute;
+          top: 315px;
+          left: 730px;
+          opacity: 50%;
+          z-index: 1;
 }
