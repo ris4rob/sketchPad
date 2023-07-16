@@ -4,7 +4,7 @@ Practice your artistic abilities!
 
 SketchPad is a browser-based drawing tool that combines the functionalities of a sketchpad and an Etch-A-Sketch. It allows users to create drawings, sketches, and doodles right in their web browser.
 
-<img src="assets/sketchpadBackgroundComplete.png" width="50px" height="50px">
+<img src="/assets/sketchpadBackgroundComplete.png" width="50px" height="50px">
 
 ![SketchPad Demo](demo.gif)
 
