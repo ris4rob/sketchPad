@@ -4,9 +4,7 @@ Practice your artistic abilities!
 
 SketchPad is a browser-based drawing tool that combines the functionalities of a sketchpad and an Etch-A-Sketch. It allows users to create drawings, sketches, and doodles right in their web browser.
 
-<img src="/assets/sketchpadBackgroundComplete.png" width="50px" height="50px">
-
-![SketchPad Demo](demo.gif)
+<img src="assets/sketchpadBackgroundComplete.png" width="50px" height="50px">
 
 ## Features
 
@@ -14,12 +12,10 @@ SketchPad is a browser-based drawing tool that combines the functionalities of a
 - Freehand drawing with different brush sizes and colors.
 - Eraser tool to correct mistakes or remove parts of the drawing.
 - Clear canvas option to start fresh.
-- Shake functionality to erase the entire drawing like an Etch-A-Sketch.
-- Save and export drawings in various formats, such as PNG or SVG.
 
 ## Installation
 
-There's no installation required for SketchPad. Simply visit the live demo at [sketchpad.example.com](https://sketchpad.example.com) and start drawing right away!
+There's no installation required for SketchPad. Simply visit the live demo at (https://ris4rob.github.io/sketchPad) and start drawing right away!
 
 If you want to host the application locally, follow these steps:
 
