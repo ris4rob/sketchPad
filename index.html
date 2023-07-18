@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>You Look Kind Of Sketchy</title>
+    <title>You Look Sketchy</title>
     <link rel="icon" type="image/png" href="assets/sketchpadIcon.png" />
     <link rel="stylesheet" href="sketch.css" />
     <script src="sketch.js" defer></script>
@@ -12,8 +12,23 @@
     <div class="container">
       <div id="sketchpad" class="sketchpad-wrapper"></div>
       <div class="controls">
-        <!-- <label for="color">Choose Your Color</label> -->
-        <input id="color" class="color" type="color" />
+        <div class="colorDiv">
+          <!-- <label for="color">Choose Your Color</label> -->
+          <label class="colorLabel" for="color"></label>
+          <input id="color" class="color" type="color" />
+        </div>
+
+        <button id="eraser" class="eraser">
+          <img src="assets/eraserCropStraight.png" alt="" />
+        </button>
+
+        <div class="colorDiv">
+          <select name="Grid Size" id="gridSize">
+            <option value="sixteen">16 x 16</option>
+            <option value="twentyfour">24 x 24</option>
+            <option value="thirtytwo">32 x 32</option>
+          </select>
+        </div>
       </div>
     </div>
   </body>
