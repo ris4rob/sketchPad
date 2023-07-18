@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=Pencil Normal select.cur
+
+[Help]
+Path=Pencil Help select.ani
+
+[AppStarting]
+Path=Pencil Working in background.ani
+
+[Wait]
+Path=Pencil Busy.ani
+
+[Crosshair]
+Path=Pencil Precision select.cur
+
+[IBeam]
+Path=Pencil Text select.ani
+
+[NWPen]
+Path=Pencil Handwriting.ani
+
+[No]
+Path=Pencil Unavailable.cur
+
+[SizeNS]
+Path=Pencil Vertical resize.cur
+
+[SizeWE]
+Path=Pencil Horizontal resize.cur
+
+[SizeNWSE]
+Path=Pencil Diagonal resize 1.cur
+
+[SizeNESW]
+Path=Pencil Diagonal resize 2.cur
+
+[SizeAll]
+Path=Pencil Move.cur
+
+[UpArrow]
+Path=Pencil Alternate select.cur
+
+[Hand]
+Path=Pencil Link select.ani
+
