@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+:root {
+          --columns: 5;
+          --rows: 5;
+}
+
 *, *::after , *::after{
           box-sizing: border-box;
           padding: 0;
@@ -33,18 +38,18 @@ body {
           height: 380px;
           border-radius: 16px;
           opacity: 50%;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
+          display: grid;
+          grid-template-columns: repeat(var(--columns), 1fr);
+          grid-template-rows: repeat(var(--rows), 1fr);
           overflow: hidden;
 }
 
 .grid{
           z-index: -1;
-          font-size: 17px;
-          width: calc(100% / 16);
-          overflow: hidden;
+          /* font-size: 17px; */
+          /* width: calc(100% / 16);
+          overflow: hidden; */
+          border: 1px solid rgb(78, 177, 78);
           
 }
 
@@ -88,14 +93,6 @@ body {
 }
 
 .gridselect {
-          border: 2px solid black;
-          border-radius: 16px;
-          font-family: 'Poppins', sans-serif;
-          padding-left: 10px;
-}
-
-.gridselect:focus {
-          border: 2px solid black;
-          border-radius: 16px;
+          width: 90px;
           font-family: 'Poppins', sans-serif;
 }
