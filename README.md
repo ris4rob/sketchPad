@@ -6,6 +6,8 @@ SketchPad is a browser-based drawing tool that combines the functionalities of a
 
 <img src="assets/sketchpadBackgroundComplete.png" width="50px" height="50px">
 
+<h1><a href="https://ris4rob.github.io/sketchPad/">LIVE DEMO</a></h1>
+
 ## Features
 
 - Intuitive interface with drawing canvas and toolbar.
